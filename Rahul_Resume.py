@@ -125,7 +125,7 @@ st.markdown('''
 ''')
 
 st.markdown('''
-### Softwar Projects
+### Software Projects
 ''')
 
 txt('**Recommendation System**', 'Aug 2022')
