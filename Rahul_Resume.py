@@ -207,7 +207,7 @@ st.markdown('''
 txt('**NEO Foundation**', '')
 txt('*Software Engineering Virtual Experience*','Sep 2021 - Oct 2021')
 st.markdown('''
-- Helped the students to understand NEO exams and betheir resource for future help related to exams.
+- Helped the students to understand NEO exams and be their resource for future help related to exams.
 - Using Social Media helped the students to understand the resources related to NEO exams.
 ''')
 
