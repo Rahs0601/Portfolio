@@ -101,8 +101,8 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**St Joseph Engineering College**, Manglore Karnataka India', '2019-present')
-txt('*B.Tech in ELectronics and Communication Engineering*' , '')
+txt('**St Joseph Engineering College**, Mangaluru Karnataka India', '2019-present')
+txt('*B.Tech in Electronics and Communication Engineering*' , '')
 st.markdown('''
 - CGPA: `8.34`
 ''')
