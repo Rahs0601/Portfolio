@@ -219,7 +219,7 @@ st.markdown('''
 txt3('Programming', '`Python`, `Verilog`, `MATLAB` , `C`')
 txt3('Python Libraries', '`Stream-Lit`, `Pandas`, `NumPy`, `Scikit-Learn`, `BeautifulSoup`, `Pywhatkit`, `Pickle`')
 txt3('Operating System', '`Windows`, `Linux (GUI)`, `Android`')
-txt3('Software', '`VS code`,`Pycharm,`,`MATLAB andSimulink`, `Xilinx Vivado` , `Multisim`, ')
+txt3('Software', '`VS code`,`Pycharm`,`MATLAB and Simulink`, `Xilinx Vivado` , `Multisim`, ')
 
 st.markdown('''
 ## Certifications
