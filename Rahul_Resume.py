@@ -132,7 +132,7 @@ txt('**Recommendation System**', 'Aug 2022')
 txt('*https://github.com/Rahs0601/projects/tree/main/Recommendation%20system*','')
 
 st.markdown('''
-- Web based Application That Recommends Similar Anime,Books, Movies and Music selected.
+- Web based Application That Recommends Similar Anime, Books, Movies and Music selected.
 - Uses Machine Learning to find Similar Items.
 - Used NumPy Pandas and Scikit-Learn to perform the Machine Learning Algorithm.
 - Used Stream-lit to create the Web Application.
@@ -141,7 +141,7 @@ st.markdown('''
 txt('**Price Comparsion using BeautifulSoup Python**', 'Jun 2022')
 txt('*https://github.com/Rahs0601/projects/blob/main/priceCompare.py*','')
 st.markdown('''
-- Python Script That Compares Prices of different Websites and gives the Specifications, Prices, and Ratings from Amazon, Flipkart, andReliance Digital.
+- Python Script That Compares Prices of different Websites and gives the Specifications, Prices, and Ratings from Amazon, Flipkart, and Reliance Digital.
 - Used BeautifulSoup to parse the HTML and extract the same.
 ''')
 
@@ -155,8 +155,7 @@ st.markdown('''
 txt('**Bill splitter using Python**', 'Sep 2021')
 txt('*https://github.com/Rahs0601/projects/blob/main/bill_splitter.py*', '')
 st.markdown('''
-- Python Script That Compares Prices of different Websites and gives the Specifications, Prices, and Ratings from Amazon, Flipkart, andReliance Digital.
-- Used BeautifulSoup to parse the HTML and extract the information.
+-  XXX
 ''')
 
 st.markdown('''
