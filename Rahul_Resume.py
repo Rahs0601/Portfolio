@@ -149,7 +149,7 @@ txt('**Virtual Assistant**', 'Jan 2022')
 txt('*https://github.com/Rahs0601/projects/blob/main/virutal%20Assistant.py*','')
 st.markdown('''
 - Built a basic virtual assistant that can play music tell time and search based on what the user ask for
-- Used Pythons Speech Recognition, text to speech, Wikipedia,and pywhatkit libraries is used to perform the tasks.
+- Used Pythons Speech Recognition, text to speech, Wikipedia and pywhatkit libraries is used to perform the tasks.
 ''')
 
 txt('**Bill splitter using Python**', 'Sep 2021')
