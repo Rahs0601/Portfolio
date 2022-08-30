@@ -188,7 +188,7 @@ st.markdown('''
 ## Internships
 ''')
 
-txt('**Adavnaced System design using FPGA**', '')
+txt('**Advanaced System design using FPGA**', '')
 txt('*Short term training program*','Apr 2022 - Sep 2022')
 st.markdown('''
 - Using FPGA Built a 4bit Processor.
