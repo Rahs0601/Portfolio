@@ -51,7 +51,7 @@ st.markdown("""
         <a class="nav-link" href="#certifications">Certifications</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#extra-curricular-activites">Extra Curricular Activities</a>
+        <a class="nav-link" href="#extra-curricular-activities">Extra Curricular Activities</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#hobbies">Hobbies</a>
