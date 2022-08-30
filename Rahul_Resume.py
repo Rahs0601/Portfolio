@@ -155,7 +155,8 @@ st.markdown('''
 txt('**Bill splitter using Python**', 'Sep 2021')
 txt('*https://github.com/Rahs0601/projects/blob/main/bill_splitter.py*', '')
 st.markdown('''
--  XXX
+- Python Script that splits the bill equally among the people and gives the amount each person has to pay.
+- Using Python Dictionary to store the bill details and split the bill among the group people.
 ''')
 
 st.markdown('''
