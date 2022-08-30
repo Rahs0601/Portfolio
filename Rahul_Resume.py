@@ -51,7 +51,7 @@ st.markdown("""
         <a class="nav-link" href="#certifications">Certifications</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#extra-curricular-activites">Extra-Curricular Activities</a>
+        <a class="nav-link" href="#extra-curricular activites">Extra-Curricular Activities</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#hobbies">Hobbies</a>
@@ -234,7 +234,7 @@ txt('**Ethical Hacking**','')
 
 
 st.markdown('''
-## Extra Curricular Activities
+## Extra-Curricular Activities
 ''')
 txt('**Treasurer** of Institute of Electrical and Electronics Engineers (IEEE) SJEC student branch', '')
 txt('**Project Manager** of Indo Universal Collaboration for Engineering Education (IUCEE) SJEC student chapter','')
