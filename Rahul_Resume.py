@@ -234,7 +234,7 @@ txt('**Ethical Hacking**','')
 
 
 st.markdown('''
-## Extra-Curricular Activities
+## Extra Curricular Activities
 ''')
 txt('**Treasurer** of Institute of Electrical and Electronics Engineers (IEEE) SJEC student branch', '')
 txt('**Project Manager** of Indo Universal Collaboration for Engineering Education (IUCEE) SJEC student chapter','')
