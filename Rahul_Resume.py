@@ -138,7 +138,7 @@ st.markdown('''
 - Used Stream-lit to create the Web Application.
 ''')
 
-txt('**Price Comparsion using BeautifulSoup Python**', 'Jun 2022')
+txt('**Price Comparison using BeautifulSoup Python**', 'Jun 2022')
 txt('*https://github.com/Rahs0601/projects/blob/main/priceCompare.py*','')
 st.markdown('''
 - Python Script That Compares Prices of different Websites and gives the Specifications, Prices, and Ratings from Amazon, Flipkart, and Reliance Digital.
