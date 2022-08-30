@@ -102,7 +102,7 @@ st.markdown('''
 ''')
 
 txt('**St Joseph Engineering College**, Mangaluru Karnataka India', '2019-present')
-txt('*B.Tech in Electronics and Communication Engineering*' , '')
+txt('*B. Tech in Electronics and Communication Engineering*' , '')
 st.markdown('''
 - CGPA: `8.34`
 ''')
@@ -155,7 +155,7 @@ st.markdown('''
 txt('**Bill splitter using Python**', 'Sep 2021')
 txt('*https://github.com/Rahs0601/projects/blob/main/bill_splitter.py*', '')
 st.markdown('''
-- Python Script that splits the bill equally among the people and gives the amount each person has to pay.
+- Python Script that splits the bill equally among the people and gives the amount each person must to pay.
 - Using Python Dictionary to store the bill details and split the bill among the group people.
 ''')
 
@@ -188,7 +188,7 @@ st.markdown('''
 ## Internships
 ''')
 
-txt('**Advanaced System design using FPGA**', '')
+txt('**Advanced System design using FPGA**', '')
 txt('*Short term training program*','Apr 2022 - Sep 2022')
 st.markdown('''
 - Using FPGA Built a 4bit Processor.
@@ -208,7 +208,7 @@ txt('**NEO Foundation**', '')
 txt('*Software Engineering Virtual Experience*','Sep 2021 - Oct 2021')
 st.markdown('''
 - Helped the students to understand NEO exams and be their resource for future help related to exams.
-- Using Social Media helped the students to understand the resources related to NEO exams.
+- Using social media helped the students to understand the resources related to NEO exams.
 ''')
 
 
@@ -216,16 +216,16 @@ st.markdown('''
 st.markdown('''
 ## Skills
 ''')
-txt3('Programming', '`Python`, `Verilog`, `MATLAB` , `C`')
+txt3('Programming', '`Python`, `Verilog`, `MATLAB`, `C`')
 txt3('Python Libraries', '`Stream-Lit`, `Pandas`, `NumPy`, `Scikit-Learn`, `BeautifulSoup`, `Pywhatkit`, `Pickle`')
 txt3('Operating System', '`Windows`, `Linux (GUI)`, `Android`')
-txt3('Software', '`VS code`,`Pycharm`,`MATLAB and Simulink`, `Xilinx Vivado` , `Multisim`, ')
+txt3('Software', '`VS code`, `Pycharm`, `MATLAB and Simulink`, `Xilinx Vivado` , `Multisim`, ')
 
 st.markdown('''
 ## Certifications
 ''')
 txt('**Programming for Everybody**', '')
-txt('**Designing Communation System: Wireless and 5G With MATLAB and Simulink**' ,'')
+txt('**Designing Communication System: Wireless and 5G With MATLAB and Simulink**' ,'')
 txt('**Signal Processing Onramp**','')
 txt('**IUCEE AI for All**','')
 txt('**Java Programming**','')
@@ -234,10 +234,10 @@ txt('**Ethical Hacking**','')
 
 
 st.markdown('''
-## Extra Curricular Activites
+## Extra Curricular Activities
 ''')
 txt('**Treasurer** of Institute of Electrical and Electronics Engineers (IEEE) SJEC student branch', '')
-txt('**Project Manger** of Indo Universal Collaboration for Engineering Education (IUCEE) SJEC student chapter','')
+txt('**Project Manager** of Indo Universal Collaboration for Engineering Education (IUCEE) SJEC student chapter','')
 txt('Member of NSS & YRC SJEC unit','')
 
 
