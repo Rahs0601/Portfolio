@@ -5,7 +5,7 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 #####################
-# Header 
+# Header
 st.write('''
 # **RAHUL N SHETTIGAR**
 ''')
@@ -66,35 +66,41 @@ st.markdown("""
 
 #####################
 # Custom function for printing text
+
+
 def txt(a, b):
-  col1, col2 = st.columns([4,1])
-  with col1:
-    st.markdown(a)
-  with col2:
-    st.markdown(b)
+    col1, col2 = st.columns([4, 1])
+    with col1:
+        st.markdown(a)
+    with col2:
+        st.markdown(b)
+
 
 def txt2(a, b):
-  col1, col2 = st.columns([1,4])
-  with col1:
-    st.markdown(f'`{a}`')
-  with col2:
-    st.markdown(b)
+    col1, col2 = st.columns([1, 4])
+    with col1:
+        st.markdown(f'`{a}`')
+    with col2:
+        st.markdown(b)
+
 
 def txt3(a, b):
-  col1, col2 = st.columns([1,2])
-  with col1:
-    st.markdown(a)
-  with col2:
-    st.markdown(b)
-  
+    col1, col2 = st.columns([1, 2])
+    with col1:
+        st.markdown(a)
+    with col2:
+        st.markdown(b)
+
+
 def txt4(a, b, c):
-  col1, col2, col3 = st.columns([1.5,2,2])
-  with col1:
-    st.markdown(f'`{a}`')
-  with col2:
-    st.markdown(b)
-  with col3:
-    st.markdown(c)
+    col1, col2, col3 = st.columns([1.5, 2, 2])
+    with col1:
+        st.markdown(f'`{a}`')
+    with col2:
+        st.markdown(b)
+    with col3:
+        st.markdown(c)
+
 
 ####################
 st.markdown('''
@@ -102,19 +108,19 @@ st.markdown('''
 ''')
 
 txt('**St Joseph Engineering College**, Mangaluru Karnataka India', '2019-present')
-txt('*B. Tech in Electronics and Communication Engineering*' , '')
+txt('*B. Tech in Electronics and Communication Engineering*', '')
 st.markdown('''
 - CGPA: `8.34`
 ''')
 
-txt('**Shri Marikamba Govt. PU College**, Sirsi Karnataka India','2017-2019')
-txt('*P. U. in Electronics*','')
+txt('**Shri Marikamba Govt. PU College**, Sirsi Karnataka India', '2017-2019')
+txt('*P. U. in Electronics*', '')
 st.markdown('''
 - Percentage: `89%`
 ''')
 
-txt('**Ave Maria High School**, Sirsi Karnataka India','2017')
-txt('*High School*','')
+txt('**Ave Maria High School**, Sirsi Karnataka India', '2017')
+txt('*High School*', '')
 st.markdown('''
 - Percentage: `80%`
 ''')
@@ -128,8 +134,17 @@ st.markdown('''
 ### Software Projects
 ''')
 
+txt('**Stock Predication**', 'Sep 2022')
+txt('*https://rahs0601-stock-predication-stock-96s3hp.streamlitapp.com/*', '')
+st.markdown('''
+- web based Application that predicts the stock price of a company based on the past and the current data of the company.
+- The data is fetched from the yahoo finance website.
+- The model is trained using the data.
+- built using Python, Streamlit, Pandas and Plotly.
+''')
+
 txt('**Recommendation System**', 'Aug 2022')
-txt('*https://github.com/Rahs0601/projects/tree/main/Recommendation%20system*','')
+txt('*https://rahs0601-recommdation---system-app-t6lql5.streamlitapp.com*', '')
 
 st.markdown('''
 - Web based Application That Recommends Similar Anime, Books, Movies and Music selected.
@@ -139,14 +154,14 @@ st.markdown('''
 ''')
 
 txt('**Price Comparison using BeautifulSoup Python**', 'Jun 2022')
-txt('*https://github.com/Rahs0601/projects/blob/main/priceCompare.py*','')
+txt('*https://github.com/Rahs0601/projects/blob/main/priceCompare.py*', '')
 st.markdown('''
 - Python Script That Compares Prices of different Websites and gives the Specifications, Prices, and Ratings from Amazon, Flipkart, and Reliance Digital.
 - Used BeautifulSoup to parse the HTML and extract the same.
 ''')
 
 txt('**Virtual Assistant**', 'Jan 2022')
-txt('*https://github.com/Rahs0601/projects/blob/main/virutal%20Assistant.py*','')
+txt('*https://github.com/Rahs0601/projects/blob/main/virutal%20Assistant.py*', '')
 st.markdown('''
 - Built a basic virtual assistant that can play music tell time and search based on what the user ask for
 - Used Pythons Speech Recognition, text to speech, Wikipedia and pywhatkit libraries is used to perform the tasks.
@@ -189,14 +204,14 @@ st.markdown('''
 ''')
 
 txt('**Advanced System design using FPGA**', '')
-txt('*Short term training program*','Apr 2022 - Sep 2022')
+txt('*Short term training program*', 'Apr 2022 - Sep 2022')
 st.markdown('''
 - Using FPGA Built a 4bit Processor.
 - Used Verilog to design the processor.
 ''')
 
 txt('**JPMorgan Chase**', '')
-txt('*Software Engineering Virtual Experience*','Oct 2021 - Dec 2021')
+txt('*Software Engineering Virtual Experience*', 'Oct 2021 - Dec 2021')
 st.markdown('''
 - Interface with a stock price data feed
 - Use JPMorgan Chase frameworks and tools
@@ -205,7 +220,7 @@ st.markdown('''
 ''')
 
 txt('**NEO Foundation**', '')
-txt('*Software Engineering Virtual Experience*','Sep 2021 - Oct 2021')
+txt('*Software Engineering Virtual Experience*', 'Sep 2021 - Oct 2021')
 st.markdown('''
 - Helped the students to understand NEO exams and be their resource for future help related to exams.
 - Using social media helped the students to understand the resources related to NEO exams.
@@ -217,7 +232,8 @@ st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`, `Verilog`, `MATLAB`, `C`')
-txt3('Python Libraries', '`Stream-Lit`, `Pandas`, `NumPy`, `Scikit-Learn`, `BeautifulSoup`, `Pywhatkit`, `Pickle`')
+txt3('Python Libraries',
+     '`Stream-Lit`, `Pandas`, `NumPy`, `Scikit-Learn`, `BeautifulSoup`, `Pywhatkit`, `Pickle`')
 txt3('Operating System', '`Windows`, `Linux (GUI)`, `Android`')
 txt3('Software', '`VS code`, `Pycharm`, `MATLAB and Simulink`, `Xilinx Vivado` , `Multisim`, ')
 
@@ -225,28 +241,28 @@ st.markdown('''
 ## Certifications
 ''')
 txt('**Programming for Everybody**', '')
-txt('**Designing Communication System: Wireless and 5G With MATLAB and Simulink**' ,'')
-txt('**Signal Processing Onramp**','')
-txt('**IUCEE AI for All**','')
-txt('**Java Programming**','')
-txt('**Arduino Master Class**','')
-txt('**Ethical Hacking**','')
+txt('**Designing Communication System: Wireless and 5G With MATLAB and Simulink**', '')
+txt('**Signal Processing Onramp**', '')
+txt('**IUCEE AI for All**', '')
+txt('**Java Programming**', '')
+txt('**Arduino Master Class**', '')
+txt('**Ethical Hacking**', '')
 
 
 st.markdown('''
 ## Extra Curricular Activities
 ''')
 txt('**Treasurer** of Institute of Electrical and Electronics Engineers (IEEE) SJEC student branch', '')
-txt('**Project Manager** of Indo Universal Collaboration for Engineering Education (IUCEE) SJEC student chapter','')
-txt('Member of NSS & YRC SJEC unit','')
+txt('**Project Manager** of Indo Universal Collaboration for Engineering Education (IUCEE) SJEC student chapter', '')
+txt('Member of NSS & YRC SJEC unit', '')
 
 
 st.markdown('''
 ## Hobbies
 ''')
 txt('Mobile Photography', '')
-txt('Photo editing using Lightroom-Mobile','')
-txt('Reading books','')
+txt('Photo editing using Lightroom-Mobile', '')
+txt('Reading books', '')
 
 #####################
 st.markdown(''' ## Social Media ''')
