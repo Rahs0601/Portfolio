@@ -92,14 +92,12 @@ def txt3(a, b):
         st.markdown(b)
 
 
-def txt4(a, b, c):
-    col1, col2, col3 = st.columns([1.5, 2, 2])
+def txt4(a, b):
+    col1, col2 = st.columns([1, 4])
     with col1:
-        st.markdown(f'`{a}`')
+        st.markdown(a)
     with col2:
         st.markdown(b)
-    with col3:
-        st.markdown(c)
 
 
 ####################
@@ -134,7 +132,7 @@ st.markdown('''
 ### Software Projects
 ''')
 
-txt('**Stock Predication**', 'Sep 2022')
+txt('**Stock Predication System**', 'Sep 2022')
 txt('*https://rahs0601-stock-predication-stock-96s3hp.streamlitapp.com/*', '')
 st.markdown('''
 - web based Application that predicts the stock price of a company based on the past and the current data of the company.
@@ -153,7 +151,7 @@ st.markdown('''
 - Used Stream-lit to create the Web Application.
 ''')
 
-txt('**Price Comparison using BeautifulSoup Python**', 'Jun 2022')
+txt('**Price Comparison System**', 'Jun 2022')
 txt('*https://github.com/Rahs0601/projects/blob/main/priceCompare.py*', '')
 st.markdown('''
 - Python Script That Compares Prices of different Websites and gives the Specifications, Prices, and Ratings from Amazon, Flipkart, and Reliance Digital.
@@ -205,6 +203,7 @@ st.markdown('''
 
 txt('**Advanced System design using FPGA**', '')
 txt('*Short term training program*', 'Apr 2022 - Sep 2022')
+txt('*https://bit.ly/advancedfpga*','')
 st.markdown('''
 - Using FPGA Built a 4bit Processor.
 - Used Verilog to design the processor.
@@ -212,6 +211,7 @@ st.markdown('''
 
 txt('**JPMorgan Chase**', '')
 txt('*Software Engineering Virtual Experience*', 'Oct 2021 - Dec 2021')
+txt('*https://bit.ly/softwarexp*','')
 st.markdown('''
 - Interface with a stock price data feed
 - Use JPMorgan Chase frameworks and tools
@@ -220,7 +220,8 @@ st.markdown('''
 ''')
 
 txt('**NEO Foundation**', '')
-txt('*Software Engineering Virtual Experience*', 'Sep 2021 - Oct 2021')
+txt('*Campus Ambassador*', 'Sep 2021 - Oct 2021')
+txt('*https://bit.ly/neocampus*','')
 st.markdown('''
 - Helped the students to understand NEO exams and be their resource for future help related to exams.
 - Using social media helped the students to understand the resources related to NEO exams.
@@ -269,4 +270,4 @@ st.markdown(''' ## Social Media ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/rahul-shettigar-77bb19192/')
 txt2('GitHub', 'https://github.com/Rahs0601')
 txt2('Instagram', 'https://www.instagram.com/rahs_since2002/')
-txt2('Photography ', 'https://drive.google.com/drive/folders/1JWYa0H84WpyER01Ks2T3i67G4b362JoF?usp=sharing')
+txt2('Photography ', 'https://bit.ly/rahsclicks')
