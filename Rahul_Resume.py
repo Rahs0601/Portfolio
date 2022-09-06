@@ -255,7 +255,7 @@ st.markdown('''
 ''')
 txt('**Treasurer** of Institute of Electrical and Electronics Engineers (IEEE) SJEC student branch', '')
 txt('**Project Manager** of Indo Universal Collaboration for Engineering Education (IUCEE) SJEC student chapter', '')
-txt('Member of NSS & YRC SJEC unit', '')
+txt('Member of The National Service Scheme (NSS) & YRC SJEC unit', '')
 
 
 st.markdown('''
