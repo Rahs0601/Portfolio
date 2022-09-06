@@ -93,7 +93,7 @@ def txt3(a, b):
 
 
 def txt4(a, b):
-    col1, col2 = st.columns([1, 4])
+    col1, col2 = st.columns([4, 4])
     with col1:
         st.markdown(a)
     with col2:
@@ -241,13 +241,13 @@ txt3('Software', '`VS code`, `Pycharm`, `MATLAB and Simulink`, `Xilinx Vivado` ,
 st.markdown('''
 ## Certifications
 ''')
-txt('**Programming for Everybody**', '')
-txt('**Designing Communication System: Wireless and 5G With MATLAB and Simulink**', '')
-txt('**Signal Processing Onramp**', '')
-txt('**IUCEE AI for All**', '')
-txt('**Java Programming**', '')
-txt('**Arduino Master Class**', '')
-txt('**Ethical Hacking**', '')
+txt4('**Programming for Everybody**', 'https://bit.ly/rahspythoncertificate')
+txt4('**Designing Communication System: Wireless and 5G With MATLAB and Simulink**', 'https://bit.ly/rahsdesigningcomsys')
+txt4('**Signal Processing Onramp**', 'https://bit.ly/rahssignalonramp')
+txt4('**IUCEE AI for All**', 'https://bit.ly/rahsai')
+txt4('**Java Programming**', 'https://bit.ly/rahsjava')
+txt4('**Arduino Master Class**', 'https://bit.ly/rahsardunio')
+txt4('**Ethical Hacking**', 'https://bit.ly/rahsethical')
 
 
 st.markdown('''
