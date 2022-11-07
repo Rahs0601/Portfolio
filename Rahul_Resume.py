@@ -202,10 +202,10 @@ st.markdown('''
 ''')
 
 txt('**Institute of Electrical and Electronics Engineers**', '')
-txt('*Machine Learning Intern*', 'Apr 2022 - Sep 2022')
+txt('*Machine Learning Intern*', 'Sep 2022 - Present')
 txt('*link*','')
 st.markdown('''
-- Speech to Speech Translation using Machine Learning.
+- Built a Speech to Speech Translation using Machine Learning.
 - Used Pytorch to build LSTM and Encoder Decoder Algorithm.
 - Used Streamlit to build the Web Application.
 ''')
