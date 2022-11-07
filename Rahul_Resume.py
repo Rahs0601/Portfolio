@@ -108,7 +108,7 @@ st.markdown('''
 txt('**St Joseph Engineering College**, Mangaluru Karnataka India', '2019-present')
 txt('*B. Tech in Electronics and Communication Engineering*', '')
 st.markdown('''
-- CGPA: `8.34`
+- CGPA: `8.21`
 ''')
 
 txt('**Shri Marikamba Govt. PU College**, Sirsi Karnataka India', '2017-2019')
@@ -199,6 +199,15 @@ st.markdown('''
 
 st.markdown('''
 ## Internships
+''')
+
+txt('**Institute of Electrical and Electronics Engineers**', '')
+txt('*Machine Learning Intern*', 'Apr 2022 - Sep 2022')
+txt('*link*','')
+st.markdown('''
+- Speech to Speech Translation using Machine Learning.
+- Used Pytorch to build LSTM and Encoder Decoder Algorithm.
+- Used Streamlit to build the Web Application.
 ''')
 
 txt('**Advanced System design using FPGA**', '')
