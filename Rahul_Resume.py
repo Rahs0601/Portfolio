@@ -205,7 +205,7 @@ txt('**Institute of Electrical and Electronics Engineers**', '')
 txt('*Machine Learning Intern*', 'Sep 2022 - Present')
 txt('*link*','')
 st.markdown('''
-- Built a Speech to Speech Translation using Machine Learning.
+- Built a Speech to Speech Translation web application using Machine Learning.
 - Used Pytorch to build LSTM and Encoder Decoder Algorithm.
 - Used Streamlit to build the Web Application.
 ''')
